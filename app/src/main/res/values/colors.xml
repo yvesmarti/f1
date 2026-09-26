@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- F1-inspired palette: deep carbon background, racing red accents. -->
+    <color name="f1_red">#FFE10600</color>
+    <color name="f1_red_dim">#FF8E0300</color>
+    <color name="f1_carbon">#FF121212</color>
+    <color name="f1_panel">#FF1E1E1E</color>
+    <color name="f1_text_primary">#FFFAFAFA</color>
+    <color name="f1_text_secondary">#FFB0B0B0</color>
+    <color name="f1_brake">#FFFF1744</color>
+    <color name="f1_accent">#FFFFD600</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+</resources>
