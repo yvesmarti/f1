@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Custom theme layered on top of Material3 DayNight.
+        We only override the few attributes we care about for the dark,
+        racing-inspired look. Status/navigation bars are tinted to the
+        carbon background so the screen looks like a cockpit panel.
+    -->
+    <style name="Theme.F1SoundApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/f1_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/f1_accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowBackground">@color/f1_carbon</item>
+        <item name="android:statusBarColor">@color/f1_carbon</item>
+        <item name="android:navigationBarColor">@color/f1_carbon</item>
+        <item name="android:textColorPrimary">@color/f1_text_primary</item>
+        <item name="android:textColorSecondary">@color/f1_text_secondary</item>
+    </style>
+
+</resources>
